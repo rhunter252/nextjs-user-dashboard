@@ -7,7 +7,7 @@ const orders = () => {
   return (
     <div className="bg-gray-100 min-h-screen">
       <div className="flex justify-between px-4 pt-4">
-        <h2>Orders</h2>
+        <h2 className="text-2xl font-bold">Orders</h2>
         <h2>Welcome Back, Randy</h2>
       </div>
       <div className="p-4">

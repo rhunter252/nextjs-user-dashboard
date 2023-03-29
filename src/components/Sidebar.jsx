@@ -9,6 +9,7 @@ import {
   RxLockClosed,
 } from "react-icons/rx";
 import { BiUser } from "react-icons/bi";
+import { BsKanban } from "react-icons/bs";
 
 const Sidebar = ({ children }) => {
   return (
@@ -21,9 +22,9 @@ const Sidebar = ({ children }) => {
             </div>
           </Link>
           <span className="border-b-[1px] border-gray-200 w-full p-2"></span>
-          <Link href="/">
+          <Link href="/kanban">
             <div className="bg-gray-100 hover:bg-gray-200 cursor-pointer my-4 p-3 rounded-lg inline-block">
-              <RxDashboard size={20} />
+              <BsKanban size={20} />
             </div>
           </Link>
           <Link href="/customers">
@@ -36,9 +37,9 @@ const Sidebar = ({ children }) => {
               <RxLockClosed size={20} />
             </div>
           </Link>
-          <Link href="/settings">
+          <Link href="/">
             <div className="bg-gray-100 hover:bg-gray-200 cursor-pointer my-4 p-3 rounded-lg inline-block">
-              <RxGear size={20} />
+              <RxDashboard size={20} />
             </div>
           </Link>
         </div>
